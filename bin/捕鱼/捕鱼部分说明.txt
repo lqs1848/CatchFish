@@ -1,0 +1,31 @@
+
+
+//---------------------------游戏可设置项目-------------------------
+		//是否在舞台内绕圈移动
+		public static var ranMove:Boolean = true;
+		//鱼拐弯基数 取值范围在 1~6中取
+		public static var radianBase:Number = 6;
+		//是否要指定鱼的类型
+		public static var fishType:Boolean = false;
+		//可以出现的鱼的类型
+		public static var fishTypeArr:Array = [12];
+		
+		//鱼出现模式  1 左右出现 2从左向右 3从右向左 4四周出现
+		public static var fishShowModel:int = 4;
+		//鱼出现的速度 百分比
+		public static var fishLifeSpeed:Number = 100;
+
+		//金币数量
+		public static var Coins:int = 10000;
+		//可以获得的金币数量
+		public static var reCoins:int = 0;
+
+		//鱼游动基础移动速度
+		public static var baseSpeed:Number = 4;
+
+
+		屏幕中鱼最大数量和最小数量也可设置
+
+
+金币数量初始化时转换一次
+金币用变成子弹后自动变为 可获得金币数量
