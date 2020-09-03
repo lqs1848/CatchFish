@@ -1,5 +1,5 @@
 # CatchFish
- 用 QuarkJS 的捕鱼Damo 的素材做的 Flash版
+ 用 QuarkJS 的捕鱼Demo 的素材做的 Flash版
 
 很久以前写的 应该是QuarkJS刚推出的时候
 
